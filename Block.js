@@ -11,7 +11,7 @@ class Block{
         this.visiblity = 255;
     }
     display(){
-        if((this.body.speed)<14){
+        if((this.body.speed)<10){
         var pos=this.body.position
         var angle=this.body.angle
         push();
